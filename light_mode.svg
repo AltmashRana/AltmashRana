@@ -1,5 +1,5 @@
-<svg width="874" height="580" viewBox="0 0 874 580" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
-<rect x="0.5" y="0.5" width="873" height="579" rx="6" fill="#ffffff" stroke="#e1e4e8"/>
+<svg width="983" height="580" viewBox="0 0 983 580" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
+<rect x="0.5" y="0.5" width="982" height="579" rx="6" fill="#ffffff" stroke="#e1e4e8"/>
 <text x="24" y="31" fill="#24292f" font-size="6" xml:space="preserve" textLength="187.2" lengthAdjust="spacingAndGlyphs">                                            #  #   #</text>
 <text x="24" y="38" fill="#24292f" font-size="6" xml:space="preserve" textLength="212.4" lengthAdjust="spacingAndGlyphs">                                        #              %%%#</text>
 <text x="24" y="45" fill="#24292f" font-size="6" xml:space="preserve" textLength="140.4" lengthAdjust="spacingAndGlyphs">                                     #%</text>
@@ -61,7 +61,7 @@
 <text x="350" y="110" fill="#0969da" font-size="13" font-weight="700" textLength="93.6" lengthAdjust="spacingAndGlyphs">@altmashRana</text>
 <text x="350" y="130" fill="#8c959f" font-size="13" textLength="343.2" lengthAdjust="spacingAndGlyphs">────────────────────────────────────────────</text>
 <text x="350" y="170" font-size="13"><tspan fill="#24292f" textLength="179.4" lengthAdjust="spacingAndGlyphs">.Languages.Programming:</tspan><tspan fill="#8c959f" textLength="85.8" lengthAdjust="spacingAndGlyphs">...........</tspan><tspan fill="#0969da" textLength="210.6" lengthAdjust="spacingAndGlyphs"> Kotlin, Python, JavaScript</tspan></text>
-<text x="350" y="190" font-size="13"><tspan fill="#24292f" textLength="156.0" lengthAdjust="spacingAndGlyphs">.Languages.Computer:</tspan><tspan fill="#8c959f" textLength="109.2" lengthAdjust="spacingAndGlyphs">..............</tspan><tspan fill="#0969da" textLength="39.0" lengthAdjust="spacingAndGlyphs"> HTML</tspan></text>
+<text x="350" y="190" font-size="13"><tspan fill="#24292f" textLength="93.6" lengthAdjust="spacingAndGlyphs">.Frameworks:</tspan><tspan fill="#8c959f" textLength="171.6" lengthAdjust="spacingAndGlyphs">......................</tspan><tspan fill="#0969da" textLength="343.2" lengthAdjust="spacingAndGlyphs"> Android, React Native, Spring Boot, AI, RAG</tspan></text>
 <text x="350" y="210" font-size="13"><tspan fill="#24292f" textLength="124.8" lengthAdjust="spacingAndGlyphs">.Languages.Real:</tspan><tspan fill="#8c959f" textLength="140.4" lengthAdjust="spacingAndGlyphs">..................</tspan><tspan fill="#0969da" textLength="234.0" lengthAdjust="spacingAndGlyphs"> English, Urdu, Hindi, Punjabi</tspan></text>
 <text x="350" y="230" font-size="13"><tspan fill="#24292f" textLength="70.2" lengthAdjust="spacingAndGlyphs">.Hobbies:</tspan><tspan fill="#8c959f" textLength="195.0" lengthAdjust="spacingAndGlyphs">.........................</tspan><tspan fill="#0969da" textLength="163.8" lengthAdjust="spacingAndGlyphs"> Gaming, Music/Guitar</tspan></text>
 <text x="350" y="270" fill="#9a6700" font-size="13" font-weight="700" textLength="343.2" lengthAdjust="spacingAndGlyphs">- Contact ----------------------------------</text>

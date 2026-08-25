@@ -1,18 +1,4 @@
 #!/usr/bin/env python3
-"""Fetch GitHub stats and render a neofetch-style profile card (dark/light SVGs).
-
-Robustness/cost notes:
-- Exactly 2 GraphQL calls per run, regardless of account age or repo count
-  (one for profile/repo aggregates, one multi-year aliased query for all-time
-  commit/PR/issue totals) - well under GitHub's rate limits.
-- No per-repo cloning or line-of-code counting.
-- The ASCII portrait is precomputed once from a static photo (see
-  scripts/generate_ascii_art.py) and baked in below - it never changes, so it
-  is not worth re-deriving on every run.
-- Retries transient network failures; exits non-zero on real failure instead
-  of silently committing bad/partial data.
-- Relies on `git diff` in the workflow to skip commits when nothing changed.
-"""
 import json
 import os
 import time
@@ -27,10 +13,10 @@ API_URL = "https://api.github.com/graphql"
 
 HEADER = "@altmashRana"
 
+FRAMEWORKS = "Android, React Native, Spring Boot, AI, RAG"
 LANGUAGES_PROGRAMMING = "Kotlin, Python, JavaScript"
-LANGUAGES_COMPUTER = "HTML"
 LANGUAGES_REAL = "English, Urdu, Hindi, Punjabi"
-HOBBIES = "Gaming, Music/Guitar"
+HOBBIES = "Gaming, Music/Guitar, Puzzles"
 
 CONTACT = [
     ("Email", "altmashrana.303@gmail.com"),
@@ -38,14 +24,9 @@ CONTACT = [
     ("Portfolio", "altmashrana.lovable.app"),
 ]
 
-# Generated once from a personal photo via scripts/generate_ascii_art.py.
-# Both themes use the same outline-style mapping (dense chars on the
-# subject's edges/clothing, mostly blank across skin/midtones) - the
-# alternate bright-pixel-dense mapping filled in too much of the face and
-# read as a solid blob rather than a recognizable portrait.
 ASCII_ART_LIGHT = [
     '                                            #  #   #',
-    '                                        #              %%%#',
+    '                                        #               %%#',
     '                                     #%',
     '                                   #                          %',
     ' ',
@@ -241,14 +222,13 @@ def section_row(title: str, col: int) -> str:
 
 
 def build_info_rows(stats: dict) -> list:
-    """Each row is (kind, payload). kind is 'header' | 'rule' | 'section' | 'dotted' | 'blank'."""
     col = 34
     rows = [
         ("header", HEADER),
         ("rule", col + 10),
         ("blank", None),
         ("dotted", dotted_row("Languages.Programming", LANGUAGES_PROGRAMMING, col)),
-        ("dotted", dotted_row("Languages.Computer", LANGUAGES_COMPUTER, col)),
+        ("dotted", dotted_row("Frameworks", FRAMEWORKS, col)),
         ("dotted", dotted_row("Languages.Real", LANGUAGES_REAL, col)),
         ("dotted", dotted_row("Hobbies", HOBBIES, col)),
         ("blank", None),
@@ -319,9 +299,6 @@ def render_svg(stats: dict, dark: bool) -> str:
     ]
 
     def tl(text_len_chars, char_w):
-        # Force exact rendered width regardless of which font a viewer's
-        # browser actually substitutes for the requested monospace stack -
-        # this is what keeps the layout from clipping across renderers.
         return f'textLength="{text_len_chars * char_w:.1f}" lengthAdjust="spacingAndGlyphs"'
 
     art_y0 = (height - art_height) / 2
