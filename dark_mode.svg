@@ -1,53 +1,90 @@
-<svg width="792" height="448" viewBox="0 0 792 448" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
-<rect x="0.5" y="0.5" width="791" height="447" rx="6" fill="#0d1117" stroke="#30363d"/>
-<text x="24" y="84" fill="#c9d1d9" font-size="7" xml:space="preserve">                  ;:,::;ri</text>
-<text x="24" y="94" fill="#c9d1d9" font-size="7" xml:space="preserve">               ,.         ,i</text>
-<text x="24" y="102" fill="#c9d1d9" font-size="7" xml:space="preserve">              ..rrrrrri;;;..,</text>
-<text x="24" y="112" fill="#c9d1d9" font-size="7" xml:space="preserve">             , ASB&amp;&amp;&amp;&amp;&amp;&amp;B9A .</text>
-<text x="24" y="120" fill="#c9d1d9" font-size="7" xml:space="preserve">              .2hHS9BB#GHHH;</text>
-<text x="24" y="130" fill="#c9d1d9" font-size="7" xml:space="preserve">             A;;...,5r  ..rr5</text>
-<text x="24" y="138" fill="#c9d1d9" font-size="7" xml:space="preserve">             3A.   iBH:  ,2MGG</text>
-<text x="24" y="148" fill="#c9d1d9" font-size="7" xml:space="preserve">              hhhhhA533hH##HS</text>
-<text x="24" y="156" fill="#c9d1d9" font-size="7" xml:space="preserve">               3HS2rAAX2S#M</text>
-<text x="24" y="166" fill="#c9d1d9" font-size="7" xml:space="preserve">                AX53AXhM22A</text>
-<text x="24" y="174" fill="#c9d1d9" font-size="7" xml:space="preserve">                3A;;::;;sM</text>
-<text x="24" y="184" fill="#c9d1d9" font-size="7" xml:space="preserve">                sMMM33MGSHs.</text>
-<text x="24" y="192" fill="#c9d1d9" font-size="7" xml:space="preserve">            ::..,;sA3HhAr:,.,::,</text>
-<text x="24" y="202" fill="#c9d1d9" font-size="7" xml:space="preserve">       ;;:,,,..,,,,,,si,,::,:::,,;::</text>
-<text x="24" y="210" fill="#c9d1d9" font-size="7" xml:space="preserve">    ;;;;:,,,.,:;;;;;:ii;;:;::;::.:;:,;;</text>
-<text x="24" y="220" fill="#c9d1d9" font-size="7" xml:space="preserve">   ::::::;;::;;;;;;;;ii;:;;;;;;;,,;:;i;;</text>
-<text x="24" y="228" fill="#c9d1d9" font-size="7" xml:space="preserve">  :;::::::;;iiiiiii;;si;;:;iiiii;::;:;;;:</text>
-<text x="24" y="238" fill="#c9d1d9" font-size="7" xml:space="preserve"> :::;;;::,:;iiiiiiii;ii;:;iiiiiii;:,,::;;:</text>
-<text x="24" y="246" fill="#c9d1d9" font-size="7" xml:space="preserve"> ,,:;;;;:,,;iiiiiii;;ii;:iiiiiiii;.,,::;;:.</text>
-<text x="24" y="256" fill="#c9d1d9" font-size="7" xml:space="preserve">:,,:,,:;;:,,:;;;;;;;;ri;::;;;;;;;,,::;;;;:,</text>
-<text x="24" y="264" fill="#c9d1d9" font-size="7" xml:space="preserve">,,:::::,,,,  ..,:::;::;;,.::,:,..,:;:::::;:</text>
-<text x="24" y="274" fill="#c9d1d9" font-size="7" xml:space="preserve">.,,,,,::::,   .,,,::.;i:: ,..    ,,:::,,::,</text>
-<text x="24" y="282" fill="#c9d1d9" font-size="7" xml:space="preserve">  ,,,:::...       ...::,:,;iri:. ...,:::,.,</text>
-<text x="24" y="292" fill="#c9d1d9" font-size="7" xml:space="preserve">  ,:::::,..:isXssrssA23MG#9&amp;&amp;&amp;&amp;#r.,,,:,,:,,.</text>
-<text x="24" y="300" fill="#c9d1d9" font-size="7" xml:space="preserve"> ..,,::,,::X9BB99BBBBB&amp;&amp;&amp;&amp;@B9GM5;.,,,,,. .,.</text>
-<text x="24" y="310" fill="#c9d1d9" font-size="7" xml:space="preserve">  ...,,.,,s#99######SSSSGHHMGX .,:,,.,:,.</text>
-<text x="24" y="318" fill="#c9d1d9" font-size="7" xml:space="preserve">   ..,... 5SGHHHHMhMh33hMGS##Gi.,,,,,..,,.</text>
-<text x="24" y="328" fill="#c9d1d9" font-size="7" xml:space="preserve">          ,2AAAXXsAAA23hhhhhhh3:   ......</text>
-<text x="24" y="336" fill="#c9d1d9" font-size="7" xml:space="preserve">                  .,::;;;iiiiiri</text>
-<text x="24" y="346" fill="#c9d1d9" font-size="7" xml:space="preserve">               .....</text>
-<text x="24" y="354" fill="#c9d1d9" font-size="7" xml:space="preserve">           .................   .</text>
-<text x="24" y="364" fill="#c9d1d9" font-size="7" xml:space="preserve">              .............. . ...</text>
-<text x="24" y="372" fill="#c9d1d9" font-size="7" xml:space="preserve">                ............    ..</text>
-<text x="269" y="44" fill="#58a6ff" font-size="13" font-weight="700">@altmashRana</text>
-<text x="269" y="64" fill="#484f58" font-size="13">────────────────────────────────────────────</text>
-<text x="269" y="104" font-size="13"><tspan fill="#c9d1d9">.Languages.Programming:</tspan><tspan fill="#484f58">...........</tspan><tspan fill="#79c0ff"> Kotlin, Python, JavaScript</tspan></text>
-<text x="269" y="124" font-size="13"><tspan fill="#c9d1d9">.Languages.Computer:</tspan><tspan fill="#484f58">..............</tspan><tspan fill="#79c0ff"> HTML</tspan></text>
-<text x="269" y="144" font-size="13"><tspan fill="#c9d1d9">.Languages.Real:</tspan><tspan fill="#484f58">..................</tspan><tspan fill="#79c0ff"> English, Urdu, Hindi, Punjabi</tspan></text>
-<text x="269" y="164" font-size="13"><tspan fill="#c9d1d9">.Hobbies:</tspan><tspan fill="#484f58">.........................</tspan><tspan fill="#79c0ff"> Gaming, Music/Guitar</tspan></text>
-<text x="269" y="204" fill="#e3b341" font-size="13" font-weight="700">- Contact ----------------------------------</text>
-<text x="269" y="224" font-size="13"><tspan fill="#c9d1d9">.Email:</tspan><tspan fill="#484f58">...........................</tspan><tspan fill="#79c0ff"> altmashrana.303@gmail.com</tspan></text>
-<text x="269" y="244" font-size="13"><tspan fill="#c9d1d9">.LinkedIn:</tspan><tspan fill="#484f58">........................</tspan><tspan fill="#79c0ff"> linkedin.com/in/altmash-rana</tspan></text>
-<text x="269" y="264" font-size="13"><tspan fill="#c9d1d9">.Portfolio:</tspan><tspan fill="#484f58">.......................</tspan><tspan fill="#79c0ff"> altmashrana.lovable.app</tspan></text>
-<text x="269" y="304" fill="#e3b341" font-size="13" font-weight="700">- GitHub Stats -----------------------------</text>
-<text x="269" y="324" font-size="13"><tspan fill="#c9d1d9">.Repos:</tspan><tspan fill="#484f58">...........................</tspan><tspan fill="#79c0ff"> 6</tspan></text>
-<text x="269" y="344" font-size="13"><tspan fill="#c9d1d9">.Stars:</tspan><tspan fill="#484f58">...........................</tspan><tspan fill="#79c0ff"> 3</tspan></text>
-<text x="269" y="364" font-size="13"><tspan fill="#c9d1d9">.Commits:</tspan><tspan fill="#484f58">.........................</tspan><tspan fill="#79c0ff"> 272</tspan></text>
-<text x="269" y="384" font-size="13"><tspan fill="#c9d1d9">.Pull Requests:</tspan><tspan fill="#484f58">...................</tspan><tspan fill="#79c0ff"> 176</tspan></text>
-<text x="269" y="404" font-size="13"><tspan fill="#c9d1d9">.Issues:</tspan><tspan fill="#484f58">..........................</tspan><tspan fill="#79c0ff"> 0</tspan></text>
-<text x="269" y="424" font-size="13"><tspan fill="#c9d1d9">.Followers:</tspan><tspan fill="#484f58">.......................</tspan><tspan fill="#79c0ff"> 4</tspan></text>
+<svg width="895" height="538" viewBox="0 0 895 538" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
+<rect x="0.5" y="0.5" width="894" height="537" rx="6" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="31" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="165.6" lengthAdjust="spacingAndGlyphs">                                 .+*%#***++=-=</text>
+<text x="24" y="38" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="176.4" lengthAdjust="spacingAndGlyphs">                              :+#%@%@@@@@@@%#**#*</text>
+<text x="24" y="45" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="183.6" lengthAdjust="spacingAndGlyphs">                            +*%@%@@@@@@@@@@@@@@@#+=</text>
+<text x="24" y="52" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="187.2" lengthAdjust="spacingAndGlyphs">                           %@@@@@@@@@@@@@@@@@@@@@%*+</text>
+<text x="24" y="59" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                          %@@@@@@@@@@@@@@@@@@@@@@@@#*</text>
+<text x="24" y="66" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                         @@@@#==+++++*++*%%%%%%@@@@@@</text>
+<text x="24" y="73" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="194.4" lengthAdjust="spacingAndGlyphs">                        %@@%-..               ..#@@@@@</text>
+<text x="24" y="80" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                        @@@*:.                 .-@@@@</text>
+<text x="24" y="87" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                        @@@%-.                 .-@@@@</text>
+<text x="24" y="94" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                        @@@#:.                 ..+@@@</text>
+<text x="24" y="101" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                        @@#::*#*+--..  .-#%%#*+..:%@@</text>
+<text x="24" y="108" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="194.4" lengthAdjust="spacingAndGlyphs">                        .*%#%%@@@@@%***%@@@@@@@@#**+..</text>
+<text x="24" y="115" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="194.4" lengthAdjust="spacingAndGlyphs">                       =-:@@@@@@@@@@+ .@@@@@@@@@%:-..:</text>
+<text x="24" y="122" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                       :-:%@@@@@@@@@.  -@@@@@@%%* .-.</text>
+<text x="24" y="129" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                        .:-=%@@@@@@+    :%@@@@#= .. .</text>
+<text x="24" y="136" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="190.8" lengthAdjust="spacingAndGlyphs">                        ...:..:::..:-.::....     ....</text>
+<text x="24" y="143" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="180.0" lengthAdjust="spacingAndGlyphs">                         ......  ..-=-:=:...     .</text>
+<text x="24" y="150" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="180.0" lengthAdjust="spacingAndGlyphs">                           :.....+%%*::-##%+.   ..</text>
+<text x="24" y="157" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="176.4" lengthAdjust="spacingAndGlyphs">                            :....+-=:::..::.. ...</text>
+<text x="24" y="164" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="176.4" lengthAdjust="spacingAndGlyphs">                             -:::..:*%@#=. ...::-</text>
+<text x="24" y="171" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="176.4" lengthAdjust="spacingAndGlyphs">                             -==+:....::....====-</text>
+<text x="24" y="178" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="172.8" lengthAdjust="spacingAndGlyphs">                             :-=%@@%##%%##@@@=:.</text>
+<text x="24" y="185" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="172.8" lengthAdjust="spacingAndGlyphs">                             :::=+*@@@@@@@#=::..</text>
+<text x="24" y="192" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="176.4" lengthAdjust="spacingAndGlyphs">                             =..::::----::......-</text>
+<text x="24" y="199" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="183.6" lengthAdjust="spacingAndGlyphs">                            +#-.....:::::...  ..%@@</text>
+<text x="24" y="206" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="198.0" lengthAdjust="spacingAndGlyphs">                         @@@@@%-....        ..%%%@@@@%@</text>
+<text x="24" y="213" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="208.8" lengthAdjust="spacingAndGlyphs">                      #@%@@@@@@@%%*:......-#%%%%%@@@%%%#@@</text>
+<text x="24" y="220" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="219.6" lengthAdjust="spacingAndGlyphs">                  #%%@@%@@@@@@@@%%%%%#+:=##%%%%%@@@%%%%%#@@%%</text>
+<text x="24" y="227" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="234.0" lengthAdjust="spacingAndGlyphs">              ##%%%@@%%@@@@@%%@@@@%%%%#**#%%%%%%%@@%%%@%%@@%#%%%%</text>
+<text x="24" y="234" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="244.8" lengthAdjust="spacingAndGlyphs">          #*%%%%%%@@@%@@@@@%%%%%%%%@%%#*###%%%%%%%%%%%@%%@@@%%%%%%%%</text>
+<text x="24" y="241" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="255.6" lengthAdjust="spacingAndGlyphs">        +#####%@%@@@%%@@%@%%%%%%#%%%%%#+=#%%%#@#%%%%##%%#%@@@###%@%%#%%</text>
+<text x="24" y="248" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="259.2" lengthAdjust="spacingAndGlyphs">      #%%%%%@%%@@@%@%@@%@%%%#############%##%%%###%%##%%%%@@@###%%@###%%</text>
+<text x="24" y="255" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="266.4" lengthAdjust="spacingAndGlyphs">     %%%%%%%%%%%%###%@@%%####################%##%#%%####%#%@@%%%%%######%%</text>
+<text x="24" y="262" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="270.0" lengthAdjust="spacingAndGlyphs">    *#%%%%%##%%%##%#%%#################**#%#%##############%@%%%####*%#%%%%</text>
+<text x="24" y="269" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="270.0" lengthAdjust="spacingAndGlyphs">    %%%%%%#%@#%@%%###%####################%#%%%############%%%%#####%#%##%%</text>
+<text x="24" y="276" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="273.6" lengthAdjust="spacingAndGlyphs">   #%%%##%%%#%%@@%####################*:=#%#*%%#######****##%#%%%%@%%%#%#%%%</text>
+<text x="24" y="283" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="273.6" lengthAdjust="spacingAndGlyphs">  ##%%#####@####%%##@#################*#*#%##@##*#*********###%%@@@%#%#%##%%</text>
+<text x="24" y="290" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="277.2" lengthAdjust="spacingAndGlyphs">  %%%%%######@%%#%%%%#######*#**############%%##************#%%%@@@%#%%##%%%%</text>
+<text x="24" y="297" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="277.2" lengthAdjust="spacingAndGlyphs"> %%%@%%%######%%%@@%%#####****##########*#%#%%#####********##%@%%@%@@%%%%%%%%</text>
+<text x="24" y="304" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="277.2" lengthAdjust="spacingAndGlyphs"> %@@%%%%%######%%%@@################%####%#%########****#*##%@@@@@%@%%%%#%%@@</text>
+<text x="24" y="311" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs"> %@@@@%%%%%@@%%%@@%%%#################*-+#%#%################@@@@@%%#####%%@@@@</text>
+<text x="24" y="318" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs"> @@@%@@@@@@@%####@@@@@%%%%#############**###%@%############%@@@%%%%#######%%%%@</text>
+<text x="24" y="325" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="280.8" lengthAdjust="spacingAndGlyphs">%@@@@%%#%%%%%%@%%%%@@@@@@@@%%%%%%%###########@@%%%%%%%%%%%%%@@%%%####%%%%%%%%%</text>
+<text x="24" y="332" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs">%@%%%%%%@@@%%@@@@@@@@@@@@@@@@%%%%%###%####%%#@@%%%@@@%@@@@@@@@@%%%%%%##%%%%%%@@</text>
+<text x="24" y="339" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs">@@@@%%%%%##%%@@@%@@%@@@@@@@@@@@%%%%#@@%%%#%%%@@%%%@@@@@@@@@@@@%%%%%@@@@@@@%%%@@</text>
+<text x="24" y="346" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs">@@@@%%@@@@%####%%%%@@@@@@@@@@@@@%%%%@@@*+%%%%@@@%@@@@@@@@@@@@%%%####%%%%%%%%%@@</text>
+<text x="24" y="353" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs">@@@@@@@@@@@%%@%@@@@@@@@@@@@@@@@@@%%@%@%++*%%%@@@%@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%</text>
+<text x="24" y="360" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs">@@@@@@@@%%###%@@@%@@@@@@@@@@@@@@@@@@%%%%#%%%%%@@@@@@@@@@@@@@@@%@@@%%#%%%%@@@@@@</text>
+<text x="24" y="367" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="288.0" lengthAdjust="spacingAndGlyphs">@@@@@%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@%%%%%%@%%@*-:.. ..-+*%@@@@@@@@@@@%%%%%@@@@@</text>
+<text x="24" y="374" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="288.0" lengthAdjust="spacingAndGlyphs"> @@@@@@%%%@@@@@%%@@@@@@@@@@@@@@@@@@@@%%*=:..             .:#@@@@@@%%%@%%%%%%%%@@</text>
+<text x="24" y="381" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="288.0" lengthAdjust="spacingAndGlyphs"> @@@@@%%%%%%%%%@@@%%*+:.   ...........                    .%@@@@@@%%%%%@@@@@@@@@</text>
+<text x="24" y="388" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="288.0" lengthAdjust="spacingAndGlyphs">  @@@@@@%%%%%%@@%%##%-                                    -%@@%%%%%%@@@@@@@@@@@@</text>
+<text x="24" y="395" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs">  @@@@@@@%@@%%@%%%##*                                .-+#%%%@@@@%@@@@@@@@@@@@@@</text>
+<text x="24" y="402" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs">  @@@@@@@@@%@@@@@%%#                             .::.+%%%%@%%@%@@@@%%%@@@@@@@@@</text>
+<text x="24" y="409" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="284.4" lengthAdjust="spacingAndGlyphs">  @@@@@@@@@@@@@@@@%.            .. ........ ...-:... :#%%@@@@@@@@@@@@%@@@@@@@@@</text>
+<text x="24" y="416" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="280.8" lengthAdjust="spacingAndGlyphs">  @@@@@@@@@@@@@@@@-........................--:..     .+%%%@@%@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="423" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="277.2" lengthAdjust="spacingAndGlyphs">   @@@@@@@@@@@@@@@#:..................:-=-:..      ....#@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="430" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="273.6" lengthAdjust="spacingAndGlyphs">     @@@@@@@@@@@@@@-:....::::.::.::-===:................@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="437" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="270.0" lengthAdjust="spacingAndGlyphs">      @@@@@@@@@@@@@*=--=------=+++=-----------:::::.::::+@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="444" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="266.4" lengthAdjust="spacingAndGlyphs">       @@@@@@@@@@@@@%%%%%%@@@@@@@%#+=---::-----========-=*@@@@@@@@@@@@@@@@</text>
+<text x="24" y="451" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="266.4" lengthAdjust="spacingAndGlyphs">         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#**+++++++++++%@@@@@@@@@@@@@@@</text>
+<text x="24" y="458" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="237.6" lengthAdjust="spacingAndGlyphs">         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="465" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="241.2" lengthAdjust="spacingAndGlyphs">        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="472" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="241.2" lengthAdjust="spacingAndGlyphs">        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="479" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="241.2" lengthAdjust="spacingAndGlyphs">       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="486" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="241.2" lengthAdjust="spacingAndGlyphs">       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="493" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="244.8" lengthAdjust="spacingAndGlyphs">       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="500" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="244.8" lengthAdjust="spacingAndGlyphs">      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="507" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="244.8" lengthAdjust="spacingAndGlyphs">      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="24" y="514" fill="#c9d1d9" font-size="6" xml:space="preserve" textLength="244.8" lengthAdjust="spacingAndGlyphs">      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="372" y="89" fill="#58a6ff" font-size="13" font-weight="700" textLength="93.6" lengthAdjust="spacingAndGlyphs">@altmashRana</text>
+<text x="372" y="109" fill="#484f58" font-size="13" textLength="343.2" lengthAdjust="spacingAndGlyphs">────────────────────────────────────────────</text>
+<text x="372" y="149" font-size="13"><tspan fill="#c9d1d9" textLength="179.4" lengthAdjust="spacingAndGlyphs">.Languages.Programming:</tspan><tspan fill="#484f58" textLength="85.8" lengthAdjust="spacingAndGlyphs">...........</tspan><tspan fill="#79c0ff" textLength="210.6" lengthAdjust="spacingAndGlyphs"> Kotlin, Python, JavaScript</tspan></text>
+<text x="372" y="169" font-size="13"><tspan fill="#c9d1d9" textLength="156.0" lengthAdjust="spacingAndGlyphs">.Languages.Computer:</tspan><tspan fill="#484f58" textLength="109.2" lengthAdjust="spacingAndGlyphs">..............</tspan><tspan fill="#79c0ff" textLength="39.0" lengthAdjust="spacingAndGlyphs"> HTML</tspan></text>
+<text x="372" y="189" font-size="13"><tspan fill="#c9d1d9" textLength="124.8" lengthAdjust="spacingAndGlyphs">.Languages.Real:</tspan><tspan fill="#484f58" textLength="140.4" lengthAdjust="spacingAndGlyphs">..................</tspan><tspan fill="#79c0ff" textLength="234.0" lengthAdjust="spacingAndGlyphs"> English, Urdu, Hindi, Punjabi</tspan></text>
+<text x="372" y="209" font-size="13"><tspan fill="#c9d1d9" textLength="70.2" lengthAdjust="spacingAndGlyphs">.Hobbies:</tspan><tspan fill="#484f58" textLength="195.0" lengthAdjust="spacingAndGlyphs">.........................</tspan><tspan fill="#79c0ff" textLength="163.8" lengthAdjust="spacingAndGlyphs"> Gaming, Music/Guitar</tspan></text>
+<text x="372" y="249" fill="#e3b341" font-size="13" font-weight="700" textLength="343.2" lengthAdjust="spacingAndGlyphs">- Contact ----------------------------------</text>
+<text x="372" y="269" font-size="13"><tspan fill="#c9d1d9" textLength="54.6" lengthAdjust="spacingAndGlyphs">.Email:</tspan><tspan fill="#484f58" textLength="210.6" lengthAdjust="spacingAndGlyphs">...........................</tspan><tspan fill="#79c0ff" textLength="202.8" lengthAdjust="spacingAndGlyphs"> altmashrana.303@gmail.com</tspan></text>
+<text x="372" y="289" font-size="13"><tspan fill="#c9d1d9" textLength="78.0" lengthAdjust="spacingAndGlyphs">.LinkedIn:</tspan><tspan fill="#484f58" textLength="187.2" lengthAdjust="spacingAndGlyphs">........................</tspan><tspan fill="#79c0ff" textLength="226.2" lengthAdjust="spacingAndGlyphs"> linkedin.com/in/altmash-rana</tspan></text>
+<text x="372" y="309" font-size="13"><tspan fill="#c9d1d9" textLength="85.8" lengthAdjust="spacingAndGlyphs">.Portfolio:</tspan><tspan fill="#484f58" textLength="179.4" lengthAdjust="spacingAndGlyphs">.......................</tspan><tspan fill="#79c0ff" textLength="187.2" lengthAdjust="spacingAndGlyphs"> altmashrana.lovable.app</tspan></text>
+<text x="372" y="349" fill="#e3b341" font-size="13" font-weight="700" textLength="343.2" lengthAdjust="spacingAndGlyphs">- GitHub Stats -----------------------------</text>
+<text x="372" y="369" font-size="13"><tspan fill="#c9d1d9" textLength="54.6" lengthAdjust="spacingAndGlyphs">.Repos:</tspan><tspan fill="#484f58" textLength="210.6" lengthAdjust="spacingAndGlyphs">...........................</tspan><tspan fill="#79c0ff" textLength="15.6" lengthAdjust="spacingAndGlyphs"> 6</tspan></text>
+<text x="372" y="389" font-size="13"><tspan fill="#c9d1d9" textLength="54.6" lengthAdjust="spacingAndGlyphs">.Stars:</tspan><tspan fill="#484f58" textLength="210.6" lengthAdjust="spacingAndGlyphs">...........................</tspan><tspan fill="#79c0ff" textLength="15.6" lengthAdjust="spacingAndGlyphs"> 3</tspan></text>
+<text x="372" y="409" font-size="13"><tspan fill="#c9d1d9" textLength="70.2" lengthAdjust="spacingAndGlyphs">.Commits:</tspan><tspan fill="#484f58" textLength="195.0" lengthAdjust="spacingAndGlyphs">.........................</tspan><tspan fill="#79c0ff" textLength="31.2" lengthAdjust="spacingAndGlyphs"> 272</tspan></text>
+<text x="372" y="429" font-size="13"><tspan fill="#c9d1d9" textLength="117.0" lengthAdjust="spacingAndGlyphs">.Pull Requests:</tspan><tspan fill="#484f58" textLength="148.2" lengthAdjust="spacingAndGlyphs">...................</tspan><tspan fill="#79c0ff" textLength="31.2" lengthAdjust="spacingAndGlyphs"> 176</tspan></text>
+<text x="372" y="449" font-size="13"><tspan fill="#c9d1d9" textLength="62.4" lengthAdjust="spacingAndGlyphs">.Issues:</tspan><tspan fill="#484f58" textLength="202.8" lengthAdjust="spacingAndGlyphs">..........................</tspan><tspan fill="#79c0ff" textLength="15.6" lengthAdjust="spacingAndGlyphs"> 0</tspan></text>
+<text x="372" y="469" font-size="13"><tspan fill="#c9d1d9" textLength="85.8" lengthAdjust="spacingAndGlyphs">.Followers:</tspan><tspan fill="#484f58" textLength="179.4" lengthAdjust="spacingAndGlyphs">.......................</tspan><tspan fill="#79c0ff" textLength="15.6" lengthAdjust="spacingAndGlyphs"> 4</tspan></text>
 </svg>
