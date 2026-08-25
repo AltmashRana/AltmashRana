@@ -1,23 +1,53 @@
-<svg width="380" height="265" viewBox="0 0 380 265" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Ubuntu, Sans-Serif">
-  <rect x="0.5" y="0.5" width="379" height="264" rx="6" fill="#ffffff" stroke="#e1e4e8"/>
-  <text x="30" y="35" fill="#0969da" font-size="18" font-weight="600">Altmash Rana's GitHub Stats</text>
-  
-          <text x="30" y="65" fill="#57606a" font-size="14">⭐ Total Stars</text>
-          <text x="350" y="65" fill="#24292f" font-size="14" font-weight="600" text-anchor="end">3</text>
-        
-          <text x="30" y="95" fill="#57606a" font-size="14">📦 Public Repos</text>
-          <text x="350" y="95" fill="#24292f" font-size="14" font-weight="600" text-anchor="end">6</text>
-        
-          <text x="30" y="125" fill="#57606a" font-size="14">✅ Total Commits</text>
-          <text x="350" y="125" fill="#24292f" font-size="14" font-weight="600" text-anchor="end">272</text>
-        
-          <text x="30" y="155" fill="#57606a" font-size="14">🔀 Pull Requests</text>
-          <text x="350" y="155" fill="#24292f" font-size="14" font-weight="600" text-anchor="end">176</text>
-        
-          <text x="30" y="185" fill="#57606a" font-size="14">🐛 Issues</text>
-          <text x="350" y="185" fill="#24292f" font-size="14" font-weight="600" text-anchor="end">0</text>
-        
-          <text x="30" y="215" fill="#57606a" font-size="14">👥 Followers</text>
-          <text x="350" y="215" fill="#24292f" font-size="14" font-weight="600" text-anchor="end">4</text>
-        
+<svg width="792" height="448" viewBox="0 0 792 448" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
+<rect x="0.5" y="0.5" width="791" height="447" rx="6" fill="#ffffff" stroke="#e1e4e8"/>
+<text x="24" y="84" fill="#24292f" font-size="7" xml:space="preserve">                  S#9##SHG</text>
+<text x="24" y="94" fill="#24292f" font-size="7" xml:space="preserve">               9B&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;9G</text>
+<text x="24" y="102" fill="#24292f" font-size="7" xml:space="preserve">              BBHHHHHHGSSSBB9</text>
+<text x="24" y="112" fill="#24292f" font-size="7" xml:space="preserve">             9&amp;3;.      .,3&amp;B</text>
+<text x="24" y="120" fill="#24292f" font-size="7" xml:space="preserve">              B5Xr;,..:irrrS@</text>
+<text x="24" y="130" fill="#24292f" font-size="7" xml:space="preserve">             3SSBBB92H&amp;&amp;BBHH2</text>
+<text x="24" y="138" fill="#24292f" font-size="7" xml:space="preserve">             A3B&amp;@&amp;G.r#&amp;&amp;95sii</text>
+<text x="24" y="148" fill="#24292f" font-size="7" xml:space="preserve">              XXXXX32AAXr::r;</text>
+<text x="24" y="156" fill="#24292f" font-size="7" xml:space="preserve">               Ar;5H33h5;:s</text>
+<text x="24" y="166" fill="#24292f" font-size="7" xml:space="preserve">                3h2A3hXs553</text>
+<text x="24" y="174" fill="#24292f" font-size="7" xml:space="preserve">                A3SS##SSMs</text>
+<text x="24" y="184" fill="#24292f" font-size="7" xml:space="preserve">                MsssAAsi;rMB</text>
+<text x="24" y="192" fill="#24292f" font-size="7" xml:space="preserve">            ##BB9SM3ArX3H#9B9##9</text>
+<text x="24" y="202" fill="#24292f" font-size="7" xml:space="preserve">       SS#999BB999999MG99##9###99S##</text>
+<text x="24" y="210" fill="#24292f" font-size="7" xml:space="preserve">    SSSS#999B9#SSSSS#GGSS#S##S##B#S#9SS</text>
+<text x="24" y="220" fill="#24292f" font-size="7" xml:space="preserve">   ######SS##SSSSSSSSGGS#SSSSSSS99S#SGSS</text>
+<text x="24" y="228" fill="#24292f" font-size="7" xml:space="preserve">  #S######SSGGGGGGGSSMGSS#SGGGGGS##S#SSS#</text>
+<text x="24" y="238" fill="#24292f" font-size="7" xml:space="preserve"> ###SSS##9#SGGGGGGGGSGGS#SGGGGGGGS#99##SS#</text>
+<text x="24" y="246" fill="#24292f" font-size="7" xml:space="preserve"> 99#SSSS#99SGGGGGGGSSGGS#GGGGGGGGSB99##SS#B</text>
+<text x="24" y="256" fill="#24292f" font-size="7" xml:space="preserve">#99#99#SS#99#SSSSSSSSHGS##SSSSSSS99##SSSS#9</text>
+<text x="24" y="264" fill="#24292f" font-size="7" xml:space="preserve">99#####9999&amp;&amp;BB9###S##SS9B##9#9BB9#S#####S#</text>
+<text x="24" y="274" fill="#24292f" font-size="7" xml:space="preserve">B99999####9&amp;&amp;&amp;B999##BSG##&amp;9BB&amp;&amp;&amp;&amp;99###99##9</text>
+<text x="24" y="282" fill="#24292f" font-size="7" xml:space="preserve">&amp;&amp;999###BBB&amp;@@&amp;&amp;&amp;&amp;BBB##9#9SGHG#B&amp;BBB9###9B9</text>
+<text x="24" y="292" fill="#24292f" font-size="7" xml:space="preserve"> &amp;9#####9BB#GMhMMHMM35Asi:,    :HB999#99#99B</text>
+<text x="24" y="300" fill="#24292f" font-size="7" xml:space="preserve"> BB99##99##h,..,,.....     .,is2SB99999B&amp;B9B</text>
+<text x="24" y="310" fill="#24292f" font-size="7" xml:space="preserve">  BBB99B99M:,,::::::;;;;irrsih&amp;B9#99B9#9B&amp;&amp;</text>
+<text x="24" y="318" fill="#24292f" font-size="7" xml:space="preserve">  &amp;BB9BBB&amp;2;irrrrsXsXAAXsi;::iGB99999BB99B</text>
+<text x="24" y="328" fill="#24292f" font-size="7" xml:space="preserve">   &amp;&amp;&amp;&amp;&amp;&amp;&amp;95333hhM3335AXXXXXXXA#&amp;&amp;&amp;BBBBBB</text>
+<text x="24" y="336" fill="#24292f" font-size="7" xml:space="preserve">     &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;B9##SSSGGGGGHG&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</text>
+<text x="24" y="346" fill="#24292f" font-size="7" xml:space="preserve">     &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;BBBBB&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;</text>
+<text x="24" y="354" fill="#24292f" font-size="7" xml:space="preserve">    &amp;&amp;&amp;&amp;&amp;&amp;&amp;BBBBBBBBBBBBBBBBB&amp;&amp;&amp;B&amp;&amp;&amp;&amp;&amp;</text>
+<text x="24" y="364" fill="#24292f" font-size="7" xml:space="preserve">    &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;BBBBBBBBBBBBBB&amp;B&amp;BBB&amp;&amp;&amp;</text>
+<text x="24" y="372" fill="#24292f" font-size="7" xml:space="preserve">   &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;BBBBBBBBBBBB&amp;&amp;&amp;&amp;BB&amp;&amp;&amp;</text>
+<text x="269" y="44" fill="#0969da" font-size="13" font-weight="700">@altmashRana</text>
+<text x="269" y="64" fill="#8c959f" font-size="13">────────────────────────────────────────────</text>
+<text x="269" y="104" font-size="13"><tspan fill="#24292f">.Languages.Programming:</tspan><tspan fill="#8c959f">...........</tspan><tspan fill="#0969da"> Kotlin, Python, JavaScript</tspan></text>
+<text x="269" y="124" font-size="13"><tspan fill="#24292f">.Languages.Computer:</tspan><tspan fill="#8c959f">..............</tspan><tspan fill="#0969da"> HTML</tspan></text>
+<text x="269" y="144" font-size="13"><tspan fill="#24292f">.Languages.Real:</tspan><tspan fill="#8c959f">..................</tspan><tspan fill="#0969da"> English, Urdu, Hindi, Punjabi</tspan></text>
+<text x="269" y="164" font-size="13"><tspan fill="#24292f">.Hobbies:</tspan><tspan fill="#8c959f">.........................</tspan><tspan fill="#0969da"> Gaming, Music/Guitar</tspan></text>
+<text x="269" y="204" fill="#9a6700" font-size="13" font-weight="700">- Contact ----------------------------------</text>
+<text x="269" y="224" font-size="13"><tspan fill="#24292f">.Email:</tspan><tspan fill="#8c959f">...........................</tspan><tspan fill="#0969da"> altmashrana.303@gmail.com</tspan></text>
+<text x="269" y="244" font-size="13"><tspan fill="#24292f">.LinkedIn:</tspan><tspan fill="#8c959f">........................</tspan><tspan fill="#0969da"> linkedin.com/in/altmash-rana</tspan></text>
+<text x="269" y="264" font-size="13"><tspan fill="#24292f">.Portfolio:</tspan><tspan fill="#8c959f">.......................</tspan><tspan fill="#0969da"> altmashrana.lovable.app</tspan></text>
+<text x="269" y="304" fill="#9a6700" font-size="13" font-weight="700">- GitHub Stats -----------------------------</text>
+<text x="269" y="324" font-size="13"><tspan fill="#24292f">.Repos:</tspan><tspan fill="#8c959f">...........................</tspan><tspan fill="#0969da"> 6</tspan></text>
+<text x="269" y="344" font-size="13"><tspan fill="#24292f">.Stars:</tspan><tspan fill="#8c959f">...........................</tspan><tspan fill="#0969da"> 3</tspan></text>
+<text x="269" y="364" font-size="13"><tspan fill="#24292f">.Commits:</tspan><tspan fill="#8c959f">.........................</tspan><tspan fill="#0969da"> 272</tspan></text>
+<text x="269" y="384" font-size="13"><tspan fill="#24292f">.Pull Requests:</tspan><tspan fill="#8c959f">...................</tspan><tspan fill="#0969da"> 176</tspan></text>
+<text x="269" y="404" font-size="13"><tspan fill="#24292f">.Issues:</tspan><tspan fill="#8c959f">..........................</tspan><tspan fill="#0969da"> 0</tspan></text>
+<text x="269" y="424" font-size="13"><tspan fill="#24292f">.Followers:</tspan><tspan fill="#8c959f">.......................</tspan><tspan fill="#0969da"> 4</tspan></text>
 </svg>
