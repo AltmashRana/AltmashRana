@@ -1,0 +1,23 @@
+<svg width="380" height="265" viewBox="0 0 380 265" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Ubuntu, Sans-Serif">
+  <rect x="0.5" y="0.5" width="379" height="264" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="30" y="35" fill="#58a6ff" font-size="18" font-weight="600">Altmash Rana's GitHub Stats</text>
+  
+          <text x="30" y="65" fill="#8b949e" font-size="14">⭐ Total Stars</text>
+          <text x="350" y="65" fill="#c9d1d9" font-size="14" font-weight="600" text-anchor="end">3</text>
+        
+          <text x="30" y="95" fill="#8b949e" font-size="14">📦 Public Repos</text>
+          <text x="350" y="95" fill="#c9d1d9" font-size="14" font-weight="600" text-anchor="end">6</text>
+        
+          <text x="30" y="125" fill="#8b949e" font-size="14">✅ Total Commits</text>
+          <text x="350" y="125" fill="#c9d1d9" font-size="14" font-weight="600" text-anchor="end">272</text>
+        
+          <text x="30" y="155" fill="#8b949e" font-size="14">🔀 Pull Requests</text>
+          <text x="350" y="155" fill="#c9d1d9" font-size="14" font-weight="600" text-anchor="end">176</text>
+        
+          <text x="30" y="185" fill="#8b949e" font-size="14">🐛 Issues</text>
+          <text x="350" y="185" fill="#c9d1d9" font-size="14" font-weight="600" text-anchor="end">0</text>
+        
+          <text x="30" y="215" fill="#8b949e" font-size="14">👥 Followers</text>
+          <text x="350" y="215" fill="#c9d1d9" font-size="14" font-weight="600" text-anchor="end">4</text>
+        
+</svg>
