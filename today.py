@@ -58,7 +58,7 @@ def fetch_profile_and_repos() -> dict:
         name
         createdAt
         followers {{ totalCount }}
-        repositories(first: 100, ownerAffiliation: OWNER, isFork: false, privacy: PUBLIC) {{
+        repositories(first: 100, ownerAffiliations: [OWNER], isFork: false, privacy: PUBLIC) {{
           totalCount
           nodes {{ stargazerCount forkCount }}
           pageInfo {{ hasNextPage endCursor }}
@@ -75,7 +75,7 @@ def fetch_profile_and_repos() -> dict:
         page_query = f"""
         {{
           user(login: "{USERNAME}") {{
-            repositories(first: 100, after: "{cursor}", ownerAffiliation: OWNER, isFork: false, privacy: PUBLIC) {{
+            repositories(first: 100, after: "{cursor}", ownerAffiliations: [OWNER], isFork: false, privacy: PUBLIC) {{
               nodes {{ stargazerCount forkCount }}
               pageInfo {{ hasNextPage endCursor }}
             }}
