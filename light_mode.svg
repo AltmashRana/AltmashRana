@@ -1,5 +1,5 @@
-<svg width="748" height="504" viewBox="0 0 748 504" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, Segoe UI, Roboto, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
-<rect x="0.5" y="0.5" width="747" height="503" rx="6" fill="#ffffff" stroke="#e1e4e8"/>
+<svg width="808" height="504" viewBox="0 0 808 504" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, Segoe UI, Roboto, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace">
+<rect x="0.5" y="0.5" width="807" height="503" rx="6" fill="#ffffff" stroke="#e1e4e8"/>
 <text x="24" y="30" fill="#24292f" font-size="6" xml:space="preserve" textLength="187.2" lengthAdjust="spacingAndGlyphs">                                            #  #   #</text>
 <text x="24" y="36" fill="#24292f" font-size="6" xml:space="preserve" textLength="212.4" lengthAdjust="spacingAndGlyphs">                                        #               %%#</text>
 <text x="24" y="42" fill="#24292f" font-size="6" xml:space="preserve" textLength="140.4" lengthAdjust="spacingAndGlyphs">                                     #%</text>
@@ -58,61 +58,55 @@
 <text x="24" y="468" fill="#24292f" font-size="6" xml:space="preserve" textLength="255.6" lengthAdjust="spacingAndGlyphs">                         ####%########%   %##################**+++**#*%</text>
 <text x="24" y="474" fill="#24292f" font-size="6" xml:space="preserve" textLength="255.6" lengthAdjust="spacingAndGlyphs">                                          %%###**+***###%% %% %%%%##%%#</text>
 <text x="24" y="480" fill="#24292f" font-size="6" xml:space="preserve" textLength="259.2" lengthAdjust="spacingAndGlyphs">                                                    %%%#######%##%%%%%#%</text>
-<text x="350" y="49" fill="#0969da" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="20" font-weight="700" textLength="144.0" lengthAdjust="spacingAndGlyphs">@altmashRana</text>
-<text x="350" y="65" fill="#8c959f" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="20" textLength="323.0" lengthAdjust="spacingAndGlyphs">──────────────────────────────────</text>
-<rect x="350" y="89" width="180" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-<rect x="350" y="89" width="3" height="80" rx="1.5" fill="#0969da"/>
-<text x="364" y="113" font-size="16">📦</text>
-<text x="364" y="139" fill="#0969da" font-size="22" font-weight="800">9</text>
-<text x="364" y="157" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">REPOS</text>
-<rect x="544" y="89" width="180" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-<rect x="544" y="89" width="3" height="80" rx="1.5" fill="#9a6700"/>
-<text x="558" y="113" font-size="16">⭐</text>
-<text x="558" y="139" fill="#9a6700" font-size="22" font-weight="800">3</text>
-<text x="558" y="157" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">STARS</text>
-<rect x="350" y="183" width="180" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-<rect x="350" y="183" width="3" height="80" rx="1.5" fill="#1a7f37"/>
-<text x="364" y="207" font-size="16">✅</text>
-<text x="364" y="233" fill="#1a7f37" font-size="22" font-weight="800">296</text>
-<text x="364" y="251" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">COMMITS</text>
-<rect x="544" y="183" width="180" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-<rect x="544" y="183" width="3" height="80" rx="1.5" fill="#8250df"/>
-<text x="558" y="207" font-size="16">🔀</text>
-<text x="558" y="233" fill="#8250df" font-size="22" font-weight="800">176</text>
-<text x="558" y="251" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">PULL REQUESTS</text>
-<rect x="350" y="277" width="180" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-<rect x="350" y="277" width="3" height="80" rx="1.5" fill="#cf222e"/>
-<text x="364" y="301" font-size="16">🐛</text>
-<text x="364" y="327" fill="#cf222e" font-size="22" font-weight="800">0</text>
-<text x="364" y="345" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">ISSUES</text>
-<rect x="544" y="277" width="180" height="80" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
-<rect x="544" y="277" width="3" height="80" rx="1.5" fill="#1b7c83"/>
-<text x="558" y="301" font-size="16">👥</text>
-<text x="558" y="327" fill="#1b7c83" font-size="22" font-weight="800">4</text>
-<text x="558" y="345" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">FOLLOWERS</text>
-<text x="350" y="385" fill="#57606a" font-size="13" font-weight="700" letter-spacing="0.5">COMMITS BY YEAR</text>
-<rect x="350.4" y="461.0" width="38.0" height="2.0" rx="3" fill="#d0d7de"/>
-<text x="369.4" y="455.0" fill="#57606a" font-size="10" text-anchor="middle">0</text>
-<text x="369.4" y="479.0" fill="#57606a" font-size="10" text-anchor="middle">19</text>
-<rect x="398.4" y="403.0" width="38.0" height="60.0" rx="3" fill="#d0d7de"/>
-<text x="417.4" y="397.0" fill="#57606a" font-size="10" text-anchor="middle">162</text>
-<text x="417.4" y="479.0" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<rect x="446.4" y="461.0" width="38.0" height="2.0" rx="3" fill="#d0d7de"/>
-<text x="465.4" y="455.0" fill="#57606a" font-size="10" text-anchor="middle">3</text>
-<text x="465.4" y="479.0" fill="#57606a" font-size="10" text-anchor="middle">21</text>
-<rect x="494.4" y="457.1" width="38.0" height="5.9" rx="3" fill="#d0d7de"/>
-<text x="513.4" y="451.1" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<text x="513.4" y="479.0" fill="#57606a" font-size="10" text-anchor="middle">22</text>
-<rect x="542.4" y="455.6" width="38.0" height="7.4" rx="3" fill="#d0d7de"/>
-<text x="561.4" y="449.6" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<text x="561.4" y="479.0" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect x="590.4" y="461.0" width="38.0" height="2.0" rx="3" fill="#d0d7de"/>
-<text x="609.4" y="455.0" fill="#57606a" font-size="10" text-anchor="middle">3</text>
-<text x="609.4" y="479.0" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect x="638.4" y="456.3" width="38.0" height="6.7" rx="3" fill="#d0d7de"/>
-<text x="657.4" y="450.3" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<text x="657.4" y="479.0" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<rect x="686.4" y="435.6" width="38.0" height="27.4" rx="3" fill="#0969da"/>
-<text x="705.4" y="429.6" fill="#57606a" font-size="10" text-anchor="middle">74</text>
-<text x="705.4" y="479.0" fill="#57606a" font-size="10" text-anchor="middle">26</text>
+<text x="350" y="67" fill="#0969da" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="20" font-weight="700" textLength="144.0" lengthAdjust="spacingAndGlyphs">@altmashRana</text>
+<text x="350" y="83" fill="#8c959f" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="20" textLength="323.0" lengthAdjust="spacingAndGlyphs">──────────────────────────────────</text>
+<rect x="350" y="107" width="210" height="68" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="350" y="107" width="3" height="68" rx="1.5" fill="#0969da"/>
+<text x="366" y="139" fill="#0969da" font-size="24" font-weight="800">9</text>
+<text x="366" y="159" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">REPOS</text>
+<rect x="574" y="107" width="210" height="68" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="574" y="107" width="3" height="68" rx="1.5" fill="#9a6700"/>
+<text x="590" y="139" fill="#9a6700" font-size="24" font-weight="800">3</text>
+<text x="590" y="159" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">STARS</text>
+<rect x="350" y="189" width="210" height="68" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="350" y="189" width="3" height="68" rx="1.5" fill="#1a7f37"/>
+<text x="366" y="221" fill="#1a7f37" font-size="24" font-weight="800">296</text>
+<text x="366" y="241" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">COMMITS</text>
+<rect x="574" y="189" width="210" height="68" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="574" y="189" width="3" height="68" rx="1.5" fill="#8250df"/>
+<text x="590" y="221" fill="#8250df" font-size="24" font-weight="800">176</text>
+<text x="590" y="241" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">PULL REQUESTS</text>
+<rect x="350" y="271" width="210" height="68" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="350" y="271" width="3" height="68" rx="1.5" fill="#cf222e"/>
+<text x="366" y="303" fill="#cf222e" font-size="24" font-weight="800">0</text>
+<text x="366" y="323" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">ISSUES</text>
+<rect x="574" y="271" width="210" height="68" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="574" y="271" width="3" height="68" rx="1.5" fill="#1b7c83"/>
+<text x="590" y="303" fill="#1b7c83" font-size="24" font-weight="800">4</text>
+<text x="590" y="323" fill="#57606a" font-size="10" font-weight="600" letter-spacing="0.5">FOLLOWERS</text>
+<text x="350" y="367" fill="#57606a" font-size="13" font-weight="700" letter-spacing="0.5">COMMITS BY YEAR</text>
+<rect x="350.4" y="443.0" width="45.5" height="2.0" rx="3" fill="#d0d7de"/>
+<text x="373.2" y="437.0" fill="#57606a" font-size="10" text-anchor="middle">0</text>
+<text x="373.2" y="461.0" fill="#57606a" font-size="10" text-anchor="middle">19</text>
+<rect x="405.9" y="385.0" width="45.5" height="60.0" rx="3" fill="#d0d7de"/>
+<text x="428.7" y="379.0" fill="#57606a" font-size="10" text-anchor="middle">162</text>
+<text x="428.7" y="461.0" fill="#57606a" font-size="10" text-anchor="middle">20</text>
+<rect x="461.4" y="443.0" width="45.5" height="2.0" rx="3" fill="#d0d7de"/>
+<text x="484.2" y="437.0" fill="#57606a" font-size="10" text-anchor="middle">3</text>
+<text x="484.2" y="461.0" fill="#57606a" font-size="10" text-anchor="middle">21</text>
+<rect x="516.9" y="439.1" width="45.5" height="5.9" rx="3" fill="#d0d7de"/>
+<text x="539.7" y="433.1" fill="#57606a" font-size="10" text-anchor="middle">16</text>
+<text x="539.7" y="461.0" fill="#57606a" font-size="10" text-anchor="middle">22</text>
+<rect x="572.4" y="437.6" width="45.5" height="7.4" rx="3" fill="#d0d7de"/>
+<text x="595.2" y="431.6" fill="#57606a" font-size="10" text-anchor="middle">20</text>
+<text x="595.2" y="461.0" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<rect x="627.9" y="443.0" width="45.5" height="2.0" rx="3" fill="#d0d7de"/>
+<text x="650.7" y="437.0" fill="#57606a" font-size="10" text-anchor="middle">3</text>
+<text x="650.7" y="461.0" fill="#57606a" font-size="10" text-anchor="middle">24</text>
+<rect x="683.4" y="438.3" width="45.5" height="6.7" rx="3" fill="#d0d7de"/>
+<text x="706.2" y="432.3" fill="#57606a" font-size="10" text-anchor="middle">18</text>
+<text x="706.2" y="461.0" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<rect x="738.9" y="417.6" width="45.5" height="27.4" rx="3" fill="#0969da"/>
+<text x="761.7" y="411.6" fill="#57606a" font-size="10" text-anchor="middle">74</text>
+<text x="761.7" y="461.0" fill="#57606a" font-size="10" text-anchor="middle">26</text>
 </svg>

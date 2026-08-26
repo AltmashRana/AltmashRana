@@ -203,15 +203,15 @@ def fetch_alltime_contributions(join_year: int) -> dict:
 
 
 STAT_CARDS = [
-    ("Repos", "public_repos", "📦", "#58a6ff", "#0969da"),
-    ("Stars", "stars", "⭐", "#e3b341", "#9a6700"),
-    ("Commits", "commits", "✅", "#3fb950", "#1a7f37"),
-    ("Pull Requests", "prs", "🔀", "#bc8cff", "#8250df"),
-    ("Issues", "issues", "🐛", "#f85149", "#cf222e"),
-    ("Followers", "followers", "👥", "#39c5cf", "#1b7c83"),
+    ("Repos", "public_repos", "#58a6ff", "#0969da"),
+    ("Stars", "stars", "#e3b341", "#9a6700"),
+    ("Commits", "commits", "#3fb950", "#1a7f37"),
+    ("Pull Requests", "prs", "#bc8cff", "#8250df"),
+    ("Issues", "issues", "#f85149", "#cf222e"),
+    ("Followers", "followers", "#39c5cf", "#1b7c83"),
 ]
 
-CARD_W, CARD_H, CARD_GAP, GRID_COLS = 180, 80, 14, 2
+CARD_W, CARD_H, CARD_GAP, GRID_COLS = 210, 68, 14, 2
 
 
 def render_svg(stats: dict, dark: bool) -> str:
@@ -285,7 +285,7 @@ def render_svg(stats: dict, dark: bool) -> str:
     )
 
     grid_y0 = rule_y + 24
-    for idx, (label, key, icon, accent_dark, accent_light) in enumerate(STAT_CARDS):
+    for idx, (label, key, accent_dark, accent_light) in enumerate(STAT_CARDS):
         col = idx % GRID_COLS
         row = idx // GRID_COLS
         cx = info_x + col * (CARD_W + CARD_GAP)
@@ -297,14 +297,11 @@ def render_svg(stats: dict, dark: bool) -> str:
         )
         parts.append(f'<rect x="{cx:.0f}" y="{cy:.0f}" width="3" height="{CARD_H}" rx="1.5" fill="{accent}"/>')
         parts.append(
-            f'<text x="{cx + 14:.0f}" y="{cy + 24:.0f}" font-size="16">{icon}</text>'
+            f'<text x="{cx + 16:.0f}" y="{cy + 32:.0f}" fill="{accent}" '
+            f'font-size="24" font-weight="800">{stats[key]}</text>'
         )
         parts.append(
-            f'<text x="{cx + 14:.0f}" y="{cy + 50:.0f}" fill="{accent}" '
-            f'font-size="22" font-weight="800">{stats[key]}</text>'
-        )
-        parts.append(
-            f'<text x="{cx + 14:.0f}" y="{cy + 68:.0f}" fill="{label_color}" '
+            f'<text x="{cx + 16:.0f}" y="{cy + 52:.0f}" fill="{label_color}" '
             f'font-size="10" font-weight="600" letter-spacing="0.5">{escape(label.upper())}</text>'
         )
 
