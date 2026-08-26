@@ -211,7 +211,7 @@ STAT_CARDS = [
     ("Followers", "followers", "👥", "#39c5cf", "#1b7c83"),
 ]
 
-CARD_W, CARD_H, CARD_GAP, GRID_COLS = 220, 100, 16, 2
+CARD_W, CARD_H, CARD_GAP, GRID_COLS = 180, 80, 14, 2
 
 
 def render_svg(stats: dict, dark: bool) -> str:
@@ -292,20 +292,20 @@ def render_svg(stats: dict, dark: bool) -> str:
         cy = grid_y0 + row * (CARD_H + CARD_GAP)
         accent = accent_dark if dark else accent_light
         parts.append(
-            f'<rect x="{cx:.0f}" y="{cy:.0f}" width="{CARD_W}" height="{CARD_H}" rx="12" '
+            f'<rect x="{cx:.0f}" y="{cy:.0f}" width="{CARD_W}" height="{CARD_H}" rx="10" '
             f'fill="{card_bg}" stroke="{card_border}"/>'
         )
-        parts.append(f'<rect x="{cx:.0f}" y="{cy:.0f}" width="4" height="{CARD_H}" rx="2" fill="{accent}"/>')
+        parts.append(f'<rect x="{cx:.0f}" y="{cy:.0f}" width="3" height="{CARD_H}" rx="1.5" fill="{accent}"/>')
         parts.append(
-            f'<text x="{cx + 20:.0f}" y="{cy + 34:.0f}" font-size="22">{icon}</text>'
+            f'<text x="{cx + 14:.0f}" y="{cy + 24:.0f}" font-size="16">{icon}</text>'
         )
         parts.append(
-            f'<text x="{cx + 20:.0f}" y="{cy + 68:.0f}" fill="{accent}" '
-            f'font-size="30" font-weight="800">{stats[key]}</text>'
+            f'<text x="{cx + 14:.0f}" y="{cy + 50:.0f}" fill="{accent}" '
+            f'font-size="22" font-weight="800">{stats[key]}</text>'
         )
         parts.append(
-            f'<text x="{cx + 20:.0f}" y="{cy + 88:.0f}" fill="{label_color}" '
-            f'font-size="12" font-weight="600" letter-spacing="0.5">{escape(label.upper())}</text>'
+            f'<text x="{cx + 14:.0f}" y="{cy + 68:.0f}" fill="{label_color}" '
+            f'font-size="10" font-weight="600" letter-spacing="0.5">{escape(label.upper())}</text>'
         )
 
     by_year = stats.get("commits_by_year", {})
