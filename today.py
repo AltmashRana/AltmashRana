@@ -107,7 +107,10 @@ def fetch_alltime_contributions(join_year: int) -> dict:
           contributionsCollection(from: "{start}", to: "{end}") {{
             totalCommitContributions
             totalPullRequestContributions
+            totalPullRequestReviewContributions
             totalIssueContributions
+            totalRepositoryContributions
+            restrictedContributionsCount
           }}
         }}
         """)
@@ -122,8 +125,15 @@ def fetch_alltime_contributions(join_year: int) -> dict:
         commits += c["totalCommitContributions"]
         prs += c["totalPullRequestContributions"]
         issues += c["totalIssueContributions"]
-        by_year[year] = c["totalCommitContributions"]
-    return {"commits": commits, "prs": prs, "issues": issues, "commits_by_year": by_year}
+        by_year[year] = (
+            c["totalCommitContributions"]
+            + c["totalPullRequestContributions"]
+            + c["totalPullRequestReviewContributions"]
+            + c["totalIssueContributions"]
+            + c["totalRepositoryContributions"]
+            + c["restrictedContributionsCount"]
+        )
+    return {"commits": commits, "prs": prs, "issues": issues, "contributions_by_year": by_year}
 
 
 STAT_CARDS = [
@@ -229,12 +239,12 @@ def render_svg(stats: dict, dark: bool) -> str:
             f'font-size="10" font-weight="600" letter-spacing="0.5">{escape(label.upper())}</text>'
         )
 
-    by_year = stats.get("commits_by_year", {})
+    by_year = stats.get("contributions_by_year", {})
     years = sorted(by_year)
     chart_y0 = grid_y0 + grid_h + 28
     parts.append(
         f'<text x="{info_x:.0f}" y="{chart_y0:.0f}" fill="{label_color}" '
-        f'font-size="13" font-weight="700" letter-spacing="0.5">COMMITS BY YEAR</text>'
+        f'font-size="13" font-weight="700" letter-spacing="0.5">CONTRIBUTIONS BY YEAR</text>'
     )
     if years:
         baseline = chart_y0 + 78
