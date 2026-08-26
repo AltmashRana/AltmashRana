@@ -13,17 +13,6 @@ API_URL = "https://api.github.com/graphql"
 
 HEADER = "@altmashRana"
 
-FRAMEWORKS = "Android, React Native, Spring Boot, AI, RAG"
-LANGUAGES_PROGRAMMING = "Kotlin, Python, JavaScript"
-LANGUAGES_REAL = "English, Urdu, Hindi, Punjabi"
-HOBBIES = "Gaming, Music/Guitar, Puzzles"
-
-CONTACT = [
-    ("Email", "altmashrana.303@gmail.com"),
-    ("LinkedIn", "linkedin.com/in/altmash-rana"),
-    ("Portfolio", "altmashrana.lovable.app"),
-]
-
 ASCII_ART_LIGHT = [
     '                                            #  #   #',
     '                                        #               %%#',
@@ -227,17 +216,8 @@ def build_info_rows(stats: dict) -> list:
         ("header", HEADER),
         ("rule", col + 10),
         ("blank", None),
-        ("dotted", dotted_row("Languages.Programming", LANGUAGES_PROGRAMMING, col)),
-        ("dotted", dotted_row("Frameworks", FRAMEWORKS, col)),
-        ("dotted", dotted_row("Languages.Real", LANGUAGES_REAL, col)),
-        ("dotted", dotted_row("Hobbies", HOBBIES, col)),
-        ("blank", None),
-        ("section", section_row("Contact", col + 10)),
+        ("section", section_row("GitHub Stats", col + 10)),
     ]
-    for label, value in CONTACT:
-        rows.append(("dotted", dotted_row(label, value, col)))
-    rows.append(("blank", None))
-    rows.append(("section", section_row("GitHub Stats", col + 10)))
     for label, value in [
         ("Repos", stats["public_repos"]),
         ("Stars", stats["stars"]),
