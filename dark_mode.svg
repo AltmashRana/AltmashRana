@@ -74,7 +74,7 @@
 <text x="366" y="241" fill="#8b949e" font-size="10" font-weight="600" letter-spacing="0.5">COMMITS</text>
 <rect x="574" y="189" width="210" height="68" rx="10" fill="#161b22" stroke="#30363d"/>
 <rect x="574" y="189" width="3" height="68" rx="1.5" fill="#bc8cff"/>
-<text x="590" y="221" fill="#bc8cff" font-size="24" font-weight="800">184</text>
+<text x="590" y="221" fill="#bc8cff" font-size="24" font-weight="800">185</text>
 <text x="590" y="241" fill="#8b949e" font-size="10" font-weight="600" letter-spacing="0.5">PULL REQUESTS</text>
 <rect x="350" y="271" width="210" height="68" rx="10" fill="#161b22" stroke="#30363d"/>
 <rect x="350" y="271" width="3" height="68" rx="1.5" fill="#f85149"/>
@@ -88,8 +88,8 @@
 <rect x="350.4" y="443.0" width="45.5" height="2.0" rx="3" fill="#30363d"/>
 <text x="373.2" y="437.0" fill="#8b949e" font-size="10" text-anchor="middle">0</text>
 <text x="373.2" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">19</text>
-<rect x="405.9" y="395.9" width="45.5" height="49.1" rx="3" fill="#30363d"/>
-<text x="428.7" y="389.9" fill="#8b949e" font-size="10" text-anchor="middle">260</text>
+<rect x="405.9" y="396.1" width="45.5" height="48.9" rx="3" fill="#30363d"/>
+<text x="428.7" y="390.1" fill="#8b949e" font-size="10" text-anchor="middle">260</text>
 <text x="428.7" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">20</text>
 <rect x="461.4" y="443.0" width="45.5" height="2.0" rx="3" fill="#30363d"/>
 <text x="484.2" y="437.0" fill="#8b949e" font-size="10" text-anchor="middle">4</text>
@@ -103,10 +103,10 @@
 <rect x="627.9" y="443.0" width="45.5" height="2.0" rx="3" fill="#30363d"/>
 <text x="650.7" y="437.0" fill="#8b949e" font-size="10" text-anchor="middle">5</text>
 <text x="650.7" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">24</text>
-<rect x="683.4" y="431.0" width="45.5" height="14.0" rx="3" fill="#30363d"/>
-<text x="706.2" y="425.0" fill="#8b949e" font-size="10" text-anchor="middle">74</text>
+<rect x="683.4" y="431.1" width="45.5" height="13.9" rx="3" fill="#30363d"/>
+<text x="706.2" y="425.1" fill="#8b949e" font-size="10" text-anchor="middle">74</text>
 <text x="706.2" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">25</text>
 <rect x="738.9" y="385.0" width="45.5" height="60.0" rx="3" fill="#58a6ff"/>
-<text x="761.7" y="379.0" fill="#8b949e" font-size="10" text-anchor="middle">318</text>
+<text x="761.7" y="379.0" fill="#8b949e" font-size="10" text-anchor="middle">319</text>
 <text x="761.7" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">26</text>
 </svg>
