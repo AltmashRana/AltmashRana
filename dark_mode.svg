@@ -88,8 +88,8 @@
 <rect x="350.4" y="443.0" width="45.5" height="2.0" rx="3" fill="#30363d"/>
 <text x="373.2" y="437.0" fill="#8b949e" font-size="10" text-anchor="middle">0</text>
 <text x="373.2" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">19</text>
-<rect x="405.9" y="396.1" width="45.5" height="48.9" rx="3" fill="#30363d"/>
-<text x="428.7" y="390.1" fill="#8b949e" font-size="10" text-anchor="middle">260</text>
+<rect x="405.9" y="396.2" width="45.5" height="48.8" rx="3" fill="#30363d"/>
+<text x="428.7" y="390.2" fill="#8b949e" font-size="10" text-anchor="middle">260</text>
 <text x="428.7" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">20</text>
 <rect x="461.4" y="443.0" width="45.5" height="2.0" rx="3" fill="#30363d"/>
 <text x="484.2" y="437.0" fill="#8b949e" font-size="10" text-anchor="middle">4</text>
@@ -107,6 +107,6 @@
 <text x="706.2" y="425.1" fill="#8b949e" font-size="10" text-anchor="middle">74</text>
 <text x="706.2" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">25</text>
 <rect x="738.9" y="385.0" width="45.5" height="60.0" rx="3" fill="#58a6ff"/>
-<text x="761.7" y="379.0" fill="#8b949e" font-size="10" text-anchor="middle">319</text>
+<text x="761.7" y="379.0" fill="#8b949e" font-size="10" text-anchor="middle">320</text>
 <text x="761.7" y="461.0" fill="#8b949e" font-size="10" text-anchor="middle">26</text>
 </svg>
