@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import calendar
 import json
 import os
 import time
@@ -107,73 +108,80 @@ def fetch_alltime_contributions(join_year: int) -> dict:
           contributionsCollection(from: "{start}", to: "{end}") {{
             totalCommitContributions
             totalPullRequestContributions
-            totalPullRequestReviewContributions
             totalIssueContributions
-            totalRepositoryContributions
-            restrictedContributionsCount
           }}
         }}
         """)
+    # last 12 months, current month included (the API caps a collection at one year)
+    first = now.year * 12 + now.month - 12
+    months = [f"{m // 12}-{m % 12 + 1:02d}" for m in range(first, first + 12)]
+    aliases.append(f"""
+    cal: user(login: "{USERNAME}") {{
+      contributionsCollection(from: "{months[0]}-01T00:00:00Z", to: "{now.isoformat().replace("+00:00", "Z")}") {{
+        contributionCalendar {{ weeks {{ contributionDays {{ date contributionCount }} }} }}
+      }}
+    }}
+    """)
     query = "{" + "".join(aliases) + "}"
     data = run_query(query)
 
+    by_month = dict.fromkeys(months, 0)
+    for week in data.pop("cal")["contributionsCollection"]["contributionCalendar"]["weeks"]:
+        for day in week["contributionDays"]:
+            if day["date"][:7] in by_month:
+                by_month[day["date"][:7]] += day["contributionCount"]
+
     commits = prs = issues = 0
-    by_year = {}
-    for alias, year_data in data.items():
-        year = int(alias[1:])
+    for year_data in data.values():
         c = year_data["contributionsCollection"]
         commits += c["totalCommitContributions"]
         prs += c["totalPullRequestContributions"]
         issues += c["totalIssueContributions"]
-        by_year[year] = (
-            c["totalCommitContributions"]
-            + c["totalPullRequestContributions"]
-            + c["totalPullRequestReviewContributions"]
-            + c["totalIssueContributions"]
-            + c["totalRepositoryContributions"]
-            + c["restrictedContributionsCount"]
-        )
-    return {"commits": commits, "prs": prs, "issues": issues, "contributions_by_year": by_year}
+    return {"commits": commits, "prs": prs, "issues": issues, "contributions_by_month": by_month}
 
 
+# label, stats key, dark accent, light accent, 16x16 line icon
 STAT_CARDS = [
-    ("Repos", "public_repos", "#58a6ff", "#0969da"),
-    ("Stars", "stars", "#e3b341", "#9a6700"),
-    ("Commits", "commits", "#3fb950", "#1a7f37"),
-    ("Pull Requests", "prs", "#bc8cff", "#8250df"),
-    ("Issues", "issues", "#f85149", "#cf222e"),
-    ("Followers", "followers", "#39c5cf", "#1b7c83"),
+    ("Repos", "public_repos", "#58a6ff", "#0969da",
+     '<rect x="3" y="2" width="10" height="12" rx="2"/><line x1="6.5" y1="2" x2="6.5" y2="14"/>'),
+    ("Stars", "stars", "#e3b341", "#9a6700",
+     '<polygon points="8,1.5 9.9,5.8 14.5,6.2 11,9.3 12.1,13.9 8,11.4 3.9,13.9 5,9.3 1.5,6.2 6.1,5.8"/>'),
+    ("Commits", "commits", "#3fb950", "#1a7f37",
+     '<circle cx="8" cy="8" r="3"/><line x1="1" y1="8" x2="5" y2="8"/><line x1="11" y1="8" x2="15" y2="8"/>'),
+    ("Pull Requests", "prs", "#bc8cff", "#8250df",
+     '<circle cx="4" cy="3.5" r="2"/><circle cx="4" cy="12.5" r="2"/><circle cx="12" cy="12.5" r="2"/>'
+     '<line x1="4" y1="5.5" x2="4" y2="10.5"/><path d="M12,10.5 V7 a3,3 0 0 0 -3,-3 H7.5"/>'),
+    ("Issues", "issues", "#f85149", "#cf222e",
+     '<circle cx="8" cy="8" r="6"/><circle cx="8" cy="8" r="1.2" fill="currentColor"/>'),
+    ("Followers", "followers", "#39c5cf", "#1b7c83",
+     '<circle cx="8" cy="5.5" r="2.8"/><path d="M2.5,14 a5.5,5.5 0 0 1 11,0"/>'),
 ]
 
-CARD_W, CARD_H, CARD_GAP, GRID_COLS = 210, 68, 14, 2
+CARD_W, CARD_H, CARD_GAP, GRID_COLS = 136, 104, 12, 3
 
 
 def render_svg(stats: dict, dark: bool) -> str:
     bg = "#0d1117" if dark else "#ffffff"
     border = "#30363d" if dark else "#e1e4e8"
     header_color = "#58a6ff" if dark else "#0969da"
-    rule_color = "#484f58" if dark else "#8c959f"
     label_color = "#8b949e" if dark else "#57606a"
     card_bg = "#161b22" if dark else "#f6f8fa"
     card_border = "#30363d" if dark else "#d0d7de"
     art_color = "#c9d1d9" if dark else "#24292f"
+    text_color = "#e6edf3" if dark else "#1f2328"
 
     art_lines = ASCII_ART_DARK if dark else ASCII_ART_LIGHT
     art_font, art_lh, art_char_w = 6, 6, 3.6
     art_width = max(len(l) for l in art_lines) * art_char_w
     art_height = len(art_lines) * art_lh
 
-    header_font = 20
-    rule_len = 34
-    rule_char_w = 9.5
-
     rows = -(-len(STAT_CARDS) // GRID_COLS)
     grid_w = GRID_COLS * CARD_W + (GRID_COLS - 1) * CARD_GAP
     grid_h = rows * CARD_H + (rows - 1) * CARD_GAP
 
-    header_block_h = header_font + 16 + 24
-    chart_h = 118
-    info_width = max(len(HEADER) * (header_font * 0.6), rule_len * rule_char_w, grid_w)
+    header_block_h = 72
+    chart_h = 216
+    info_width = grid_w
     info_height = header_block_h + grid_h + chart_h
 
     pad = 24
@@ -206,69 +214,106 @@ def render_svg(stats: dict, dark: bool) -> str:
 
     info_y0 = (height - info_height) / 2
     parts.append(
-        f'<text x="{info_x:.0f}" y="{info_y0 + header_font:.0f}" fill="{header_color}" '
-        f'font-family="SFMono-Regular, Consolas, \'Liberation Mono\', Menlo, monospace" '
-        f'font-size="{header_font}" font-weight="700" {tl(len(HEADER), header_font * 0.6)}>'
-        f'{escape(HEADER)}</text>'
+        f'<text x="{info_x:.0f}" y="{info_y0 + 22:.0f}" fill="{text_color}" '
+        f'font-size="24" font-weight="800">{escape(stats["name"])}</text>'
     )
-    rule_y = info_y0 + header_font + 16
     parts.append(
-        f'<text x="{info_x:.0f}" y="{rule_y:.0f}" fill="{rule_color}" '
-        f'font-family="SFMono-Regular, Consolas, \'Liberation Mono\', Menlo, monospace" '
-        f'font-size="{header_font}" {tl(rule_len, rule_char_w)}>{"─" * rule_len}</text>'
+        f'<text x="{info_x:.0f}" y="{info_y0 + 43:.0f}" fill="{label_color}" font-size="12">'
+        f'<tspan fill="{header_color}" font-weight="600">{escape(HEADER)}</tspan>'
+        f' · on GitHub since {stats["created_at"][:4]}</text>'
+    )
+    underline_end = STAT_CARDS[3][2 if dark else 3]
+    parts.append(
+        f'<defs><linearGradient id="underline"><stop offset="0" stop-color="{header_color}"/>'
+        f'<stop offset="1" stop-color="{underline_end}"/></linearGradient></defs>'
+        f'<rect x="{info_x:.0f}" y="{info_y0 + 54:.0f}" width="56" height="3" rx="1.5" fill="url(#underline)"/>'
     )
 
-    grid_y0 = rule_y + 24
-    for idx, (label, key, accent_dark, accent_light) in enumerate(STAT_CARDS):
+    grid_y0 = info_y0 + header_block_h
+    for idx, (label, key, accent_dark, accent_light, icon) in enumerate(STAT_CARDS):
         col = idx % GRID_COLS
         row = idx // GRID_COLS
         cx = info_x + col * (CARD_W + CARD_GAP)
         cy = grid_y0 + row * (CARD_H + CARD_GAP)
         accent = accent_dark if dark else accent_light
+        card = f'x="{cx:.0f}" y="{cy:.0f}" width="{CARD_W}" height="{CARD_H}" rx="12"'
         parts.append(
-            f'<rect x="{cx:.0f}" y="{cy:.0f}" width="{CARD_W}" height="{CARD_H}" rx="10" '
-            f'fill="{card_bg}" stroke="{card_border}"/>'
+            f'<defs><linearGradient id="wash{idx}" x1="0" y1="0" x2="1" y2="1">'
+            f'<stop offset="0" stop-color="{accent}" stop-opacity="0.18"/>'
+            f'<stop offset="0.7" stop-color="{accent}" stop-opacity="0"/></linearGradient></defs>'
         )
-        parts.append(f'<rect x="{cx:.0f}" y="{cy:.0f}" width="3" height="{CARD_H}" rx="1.5" fill="{accent}"/>')
+        parts.append(f'<rect {card} fill="{card_bg}"/>')
+        parts.append(f'<rect {card} fill="url(#wash{idx})" stroke="{card_border}"/>')
         parts.append(
-            f'<text x="{cx + 16:.0f}" y="{cy + 32:.0f}" fill="{accent}" '
-            f'font-size="24" font-weight="800">{stats[key]}</text>'
+            f'<rect x="{cx + 14:.0f}" y="{cy + 14:.0f}" width="28" height="28" rx="8" '
+            f'fill="{accent}" fill-opacity="0.16"/>'
         )
         parts.append(
-            f'<text x="{cx + 16:.0f}" y="{cy + 52:.0f}" fill="{label_color}" '
-            f'font-size="10" font-weight="600" letter-spacing="0.5">{escape(label.upper())}</text>'
+            f'<g transform="translate({cx + 20:.0f},{cy + 20:.0f})" fill="none" stroke="{accent}" '
+            f'color="{accent}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">{icon}</g>'
+        )
+        parts.append(
+            f'<text x="{cx + 14:.0f}" y="{cy + 74:.0f}" fill="{text_color}" '
+            f'font-size="26" font-weight="800">{stats[key]}</text>'
+        )
+        parts.append(
+            f'<text x="{cx + 14:.0f}" y="{cy + 91:.0f}" fill="{label_color}" '
+            f'font-size="9.5" font-weight="600" letter-spacing="0.6">{escape(label.upper())}</text>'
         )
 
-    by_year = stats.get("contributions_by_year", {})
-    years = sorted(by_year)
+    by_month = stats.get("contributions_by_month", {})
+    months = sorted(by_month)
     chart_y0 = grid_y0 + grid_h + 28
     parts.append(
         f'<text x="{info_x:.0f}" y="{chart_y0:.0f}" fill="{label_color}" '
-        f'font-size="13" font-weight="700" letter-spacing="0.5">CONTRIBUTIONS BY YEAR</text>'
+        f'font-size="13" font-weight="700" letter-spacing="0.5">CONTRIBUTION ACTIVITY</text>'
     )
-    if years:
-        baseline = chart_y0 + 78
-        bar_max_h = 60
-        max_val = max(1, max(by_year.values()))
-        bar_gap = 10
-        bar_w = (grid_w - (len(years) - 1) * bar_gap) / len(years)
-        for i, yr in enumerate(years):
-            val = by_year[yr]
-            bar_h = max(2, (val / max_val) * bar_max_h)
-            bx = info_x + i * (bar_w + bar_gap)
-            by = baseline - bar_h
-            is_current = i == len(years) - 1
-            bar_color = header_color if is_current else card_border
+    if months:
+        vals = [by_month[m] for m in months]
+        top, baseline = chart_y0 + 32, chart_y0 + 169
+        for gy in (top, (top + baseline) / 2):
             parts.append(
-                f'<rect x="{bx:.1f}" y="{by:.1f}" width="{bar_w:.1f}" height="{bar_h:.1f}" rx="3" fill="{bar_color}"/>'
+                f'<line x1="{info_x:.0f}" x2="{info_x + grid_w:.0f}" y1="{gy:.1f}" y2="{gy:.1f}" '
+                f'stroke="{card_border}" stroke-dasharray="2 4"/>'
             )
+        max_val = max(1, max(vals))
+        inset = 14
+        step = (grid_w - 2 * inset) / max(1, len(months) - 1)
+        pts = [
+            (info_x + inset + i * step, baseline - (v / max_val) * (baseline - top))
+            for i, v in enumerate(vals)
+        ]
+        line = f"M{pts[0][0]:.1f},{pts[0][1]:.1f}"
+        for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
+            mid = (x0 + x1) / 2
+            line += f" C{mid:.1f},{y0:.1f} {mid:.1f},{y1:.1f} {x1:.1f},{y1:.1f}"
+        parts.append(
+            f'<defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1">'
+            f'<stop offset="0" stop-color="{header_color}" stop-opacity="0.45"/>'
+            f'<stop offset="1" stop-color="{header_color}" stop-opacity="0"/></linearGradient></defs>'
+        )
+        parts.append(
+            f'<path d="{line} L{pts[-1][0]:.1f},{baseline:.1f} L{pts[0][0]:.1f},{baseline:.1f} Z" fill="url(#area)"/>'
+        )
+        parts.append(
+            f'<path d="{line}" fill="none" stroke="{header_color}" stroke-width="2.5" stroke-linecap="round"/>'
+        )
+        peak = vals.index(max(vals))
+        for i, (px, py) in enumerate(pts):
+            if i == peak:
+                parts.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4.5" fill="{header_color}"/>')
+                parts.append(
+                    f'<text x="{px:.1f}" y="{py - 10:.1f}" fill="{art_color}" font-size="11" '
+                    f'font-weight="700" text-anchor="middle">{vals[i]}</text>'
+                )
+            else:
+                parts.append(
+                    f'<circle cx="{px:.1f}" cy="{py:.1f}" r="2.5" fill="{bg}" '
+                    f'stroke="{header_color}" stroke-width="1.5"/>'
+                )
             parts.append(
-                f'<text x="{bx + bar_w / 2:.1f}" y="{by - 6:.1f}" fill="{label_color}" '
-                f'font-size="10" text-anchor="middle">{val}</text>'
-            )
-            parts.append(
-                f'<text x="{bx + bar_w / 2:.1f}" y="{baseline + 16:.1f}" fill="{label_color}" '
-                f'font-size="10" text-anchor="middle">{str(yr)[2:]}</text>'
+                f'<text x="{px:.1f}" y="{baseline + 16:.1f}" fill="{label_color}" '
+                f'font-size="10" text-anchor="middle">{calendar.month_abbr[int(months[i][5:])]}</text>'
             )
 
     parts.append("</svg>")
