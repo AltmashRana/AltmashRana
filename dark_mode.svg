@@ -101,7 +101,7 @@
 <rect x="646" y="212" width="136" height="104" rx="12" fill="url(#wash5)" stroke="#30363d"/>
 <rect x="660" y="226" width="28" height="28" rx="8" fill="#39c5cf" fill-opacity="0.16"/>
 <g transform="translate(666,232)" fill="none" stroke="#39c5cf" color="#39c5cf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="5.5" r="2.8"/><path d="M2.5,14 a5.5,5.5 0 0 1 11,0"/></g>
-<text x="660" y="286" fill="#e6edf3" font-size="26" font-weight="800">4</text>
+<text x="660" y="286" fill="#e6edf3" font-size="26" font-weight="800">3</text>
 <text x="660" y="303" fill="#8b949e" font-size="9.5" font-weight="600" letter-spacing="0.6">FOLLOWERS</text>
 <text x="350" y="344" fill="#8b949e" font-size="13" font-weight="700" letter-spacing="0.5">CONTRIBUTION ACTIVITY</text>
 <line x1="350" x2="782" y1="376.0" y2="376.0" stroke="#30363d" stroke-dasharray="2 4"/>
