@@ -87,7 +87,7 @@
 <rect x="350" y="212" width="136" height="104" rx="12" fill="url(#wash3)" stroke="#d0d7de"/>
 <rect x="364" y="226" width="28" height="28" rx="8" fill="#8250df" fill-opacity="0.16"/>
 <g transform="translate(370,232)" fill="none" stroke="#8250df" color="#8250df" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="4" cy="3.5" r="2"/><circle cx="4" cy="12.5" r="2"/><circle cx="12" cy="12.5" r="2"/><line x1="4" y1="5.5" x2="4" y2="10.5"/><path d="M12,10.5 V7 a3,3 0 0 0 -3,-3 H7.5"/></g>
-<text x="364" y="286" fill="#1f2328" font-size="26" font-weight="800">194</text>
+<text x="364" y="286" fill="#1f2328" font-size="26" font-weight="800">195</text>
 <text x="364" y="303" fill="#57606a" font-size="9.5" font-weight="600" letter-spacing="0.6">PULL REQUESTS</text>
 <defs><linearGradient id="wash4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cf222e" stop-opacity="0.18"/><stop offset="0.7" stop-color="#cf222e" stop-opacity="0"/></linearGradient></defs>
 <rect x="498" y="212" width="136" height="104" rx="12" fill="#f6f8fa"/>
@@ -107,8 +107,8 @@
 <line x1="350" x2="782" y1="376.0" y2="376.0" stroke="#d0d7de" stroke-dasharray="2 4"/>
 <line x1="350" x2="782" y1="444.5" y2="444.5" stroke="#d0d7de" stroke-dasharray="2 4"/>
 <defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0969da" stop-opacity="0.45"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></linearGradient></defs>
-<path d="M364.4,488.0 C382.8,488.0 382.8,498.0 401.1,498.0 C419.5,498.0 419.5,497.0 437.9,497.0 C456.2,497.0 456.2,471.0 474.6,471.0 C492.9,471.0 492.9,504.0 511.3,504.0 C529.7,504.0 529.7,492.0 548.0,492.0 C566.4,492.0 566.4,495.0 584.8,495.0 C603.1,495.0 603.1,501.0 621.5,501.0 C639.9,501.0 639.9,458.0 658.2,458.0 C676.6,458.0 676.6,502.0 694.9,502.0 C713.3,502.0 713.3,376.0 731.7,376.0 C750.0,376.0 750.0,513.0 768.4,513.0 L768.4,513.0 L364.4,513.0 Z" fill="url(#area)"/>
-<path d="M364.4,488.0 C382.8,488.0 382.8,498.0 401.1,498.0 C419.5,498.0 419.5,497.0 437.9,497.0 C456.2,497.0 456.2,471.0 474.6,471.0 C492.9,471.0 492.9,504.0 511.3,504.0 C529.7,504.0 529.7,492.0 548.0,492.0 C566.4,492.0 566.4,495.0 584.8,495.0 C603.1,495.0 603.1,501.0 621.5,501.0 C639.9,501.0 639.9,458.0 658.2,458.0 C676.6,458.0 676.6,502.0 694.9,502.0 C713.3,502.0 713.3,376.0 731.7,376.0 C750.0,376.0 750.0,513.0 768.4,513.0" fill="none" stroke="#0969da" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M364.4,488.0 C382.8,488.0 382.8,498.0 401.1,498.0 C419.5,498.0 419.5,497.0 437.9,497.0 C456.2,497.0 456.2,471.0 474.6,471.0 C492.9,471.0 492.9,504.0 511.3,504.0 C529.7,504.0 529.7,492.0 548.0,492.0 C566.4,492.0 566.4,495.0 584.8,495.0 C603.1,495.0 603.1,501.0 621.5,501.0 C639.9,501.0 639.9,458.0 658.2,458.0 C676.6,458.0 676.6,502.0 694.9,502.0 C713.3,502.0 713.3,376.0 731.7,376.0 C750.0,376.0 750.0,512.0 768.4,512.0 L768.4,513.0 L364.4,513.0 Z" fill="url(#area)"/>
+<path d="M364.4,488.0 C382.8,488.0 382.8,498.0 401.1,498.0 C419.5,498.0 419.5,497.0 437.9,497.0 C456.2,497.0 456.2,471.0 474.6,471.0 C492.9,471.0 492.9,504.0 511.3,504.0 C529.7,504.0 529.7,492.0 548.0,492.0 C566.4,492.0 566.4,495.0 584.8,495.0 C603.1,495.0 603.1,501.0 621.5,501.0 C639.9,501.0 639.9,458.0 658.2,458.0 C676.6,458.0 676.6,502.0 694.9,502.0 C713.3,502.0 713.3,376.0 731.7,376.0 C750.0,376.0 750.0,512.0 768.4,512.0" fill="none" stroke="#0969da" stroke-width="2.5" stroke-linecap="round"/>
 <circle cx="364.4" cy="488.0" r="2.5" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
 <text x="364.4" y="529.0" fill="#57606a" font-size="10" text-anchor="middle">Dec</text>
 <circle cx="401.1" cy="498.0" r="2.5" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
@@ -132,6 +132,6 @@
 <circle cx="731.7" cy="376.0" r="4.5" fill="#0969da"/>
 <text x="731.7" y="366.0" fill="#24292f" font-size="11" font-weight="700" text-anchor="middle">137</text>
 <text x="731.7" y="529.0" fill="#57606a" font-size="10" text-anchor="middle">Oct</text>
-<circle cx="768.4" cy="513.0" r="2.5" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+<circle cx="768.4" cy="512.0" r="2.5" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
 <text x="768.4" y="529.0" fill="#57606a" font-size="10" text-anchor="middle">Nov</text>
 </svg>
